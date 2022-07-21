@@ -9,7 +9,7 @@ class Multiton {
 public:
 	
 	// get instance of
-	static Multiton Instance(size_t n) {
+	static Multiton& Instance(size_t n) {
 
 		static map instances;
 		if (instances.find(n) == instances.end())
