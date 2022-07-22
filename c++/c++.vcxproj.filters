@@ -20,7 +20,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="c++\Creational\factory\factory.h">
+    <ClInclude Include="c++\Creational\factory\abstract_factory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="c++\Creational\singleton.h">
@@ -30,6 +30,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="c++\data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="c++\factory_method.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

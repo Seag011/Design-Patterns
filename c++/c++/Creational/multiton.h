@@ -7,7 +7,6 @@ using map = std::map<size_t, Multiton>;
 
 class Multiton {
 public:
-	
 	// get instance of
 	static Multiton& Instance(size_t n) {
 
@@ -23,7 +22,6 @@ public:
 	}
 
 private:
-
 	// some data
 	int id;
 
