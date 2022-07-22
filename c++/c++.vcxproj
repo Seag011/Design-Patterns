@@ -135,6 +135,7 @@
     <ClInclude Include="c++\data.h" />
     <ClInclude Include="c++\Creational\multiton.h" />
     <ClInclude Include="c++\factory_method.h" />
+    <ClInclude Include="c++\prototype.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

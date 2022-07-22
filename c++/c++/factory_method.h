@@ -37,7 +37,7 @@ namespace FactoryMethod {
 	class CreatorB : public ICreator {
 	public:
 		IProduct FactoryMethod() override {
-			return ProductA();
+			return ProductB();
 		}
 	};
 }

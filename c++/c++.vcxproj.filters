@@ -35,5 +35,8 @@
     <ClInclude Include="c++\factory_method.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="c++\prototype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
