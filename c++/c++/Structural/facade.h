@@ -2,14 +2,13 @@
 #include <iostream>
 
 namespace Facede {
-
+	
 	class Facade {
 	public:
 		Facade() {
 			a = &ComponentA();
 			b = &ComponentB();
 			c = &ComponentC();
-
 		}
 		void HelloWorld() {
 			a->DoA();
@@ -22,7 +21,7 @@ namespace Facede {
 		ComponentC* c;
 	};
 
-
+	/* components of subsystem */ 
 	class ComponentA{
 	public:
 		void DoA() {
@@ -43,4 +42,5 @@ namespace Facede {
 			std::cout << "rld!" << std::endl;
 		}
 	};
+	/*------------------------*/
 }
